@@ -46,6 +46,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+body{
+	background-color: #232830;
+}
 
 .header{
     background-color: #232830;
@@ -106,4 +109,34 @@ word-wrap: break-word;
 }
 .sectionWritings{
 	margin-bottom: 99px;
+}
+.main_navigation{
+	color: #909090;
+	font-size: 27px;
+	font-family: Recursive;
+	font-style: italic;
+	font-weight: 400;
+	word-wrap: break-word
+}
+.ul_navigation{
+	display: flex;
+	column-gap: 36px;
+	justify-content: center;
+}
+.main_section{
+	border-top: 1px solid #4D4D4D;
+	padding-top: 16px;
+}
+.main_icon{
+	position: absolute;
+	color: #909090
+}
+.div_navigation{
+	position: static;
+}
+.main_icon_grid{
+	margin-left: 220px;
+}
+.main_icon_list{
+	margin-left: 257px;
 }
